@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    url: ${MYAPP_JDBC_URL}
+    username: postgres
+    password: password
+  rabbitmq:
+    host: ${RABBIT_HOST:localhost}
+    port: 5672
+    username: guest
+    password: guest
